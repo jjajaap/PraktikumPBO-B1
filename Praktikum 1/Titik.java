@@ -10,7 +10,13 @@ class Titik{
         ordinat = 0;
         counterTitik++;
     }
-    
+
+    Titik(double a, double o){
+        absis = a;
+        ordinat = o;
+        counterTitik++;
+    }
+
     // deklarasi method
     void setAbsis(double a){
         absis = a;
@@ -30,7 +36,5 @@ class Titik{
 
     int getCounterTitik(){
         return counterTitik;
-    }
-
-    
+    }  
 }
